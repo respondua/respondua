@@ -24,6 +24,9 @@ cd respondua
 docker-compose up
 ```
 
+## Contributing
+We welcome contributions!
+If you'd like to help with development, design, translation, or community outreach — check out our [CONTRIBUTING](./CONTRIBUTING)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

@@ -1,4 +1,4 @@
-name: Build and Deploy Docs
+name: Build and Deploy Docs pages
 
 on:
   push:
@@ -7,30 +7,30 @@ on:
       - 'docs/**'
   workflow_dispatch:
 
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
-        working-directory: docs
         with:
           ruby-version: '3.1'
           bundler-cache: true
 
       - name: Install Dependencies
-        working-directory: docs
         run: |
           gem install bundler
           bundle install
 
       - name: Build site
-        working-directory: docs
-        run: bundle exec jekyll build --source _docs --destination docs
+        run: bundle exec jekyll build --source _docs --destination _site
 
       - name: Push to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4

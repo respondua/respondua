@@ -36,10 +36,9 @@ jobs:
           gem install bundler
           bundle install
 
-      - name: Build Jekyll site
+      - name: Build with Jekyll
         working-directory: docs
-        # run: bundle exec jekyll build --source _docs --destination _site
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "/respondua"
 
       - name: Debug _site content
         working-directory: docs

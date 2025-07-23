@@ -4,7 +4,7 @@ theme: jekyll-rtd-theme
 source: _docs
 
 url: "https://respondua.github.io"
-baseurl: "/respondua" 
+baseurl: "/respondua"
 
 markdown: kramdown
 
@@ -16,7 +16,6 @@ rtd:
   github_docs_folder: "_docs"
   navigation:
     file: navigation.yml
-
 
 collections:
   docs:
@@ -37,4 +36,3 @@ defaults:
       type: docs
     values:
       layout: default
-

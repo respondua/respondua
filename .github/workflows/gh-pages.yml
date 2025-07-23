@@ -38,7 +38,8 @@ jobs:
 
       - name: Build Jekyll site
         working-directory: docs
-        run: bundle exec jekyll build --source _docs --destination _site
+        # run: bundle exec jekyll build --source _docs --destination _site
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
 
       - name: Debug _site content
         working-directory: docs

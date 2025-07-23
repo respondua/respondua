@@ -1,12 +1,17 @@
 ## Respondua – Volunteer Project
 
-Welcome to **Respondua**, a volunteer-driven project built to support our community through accessible technology and collaboration.
+Welcome to **Respondua**, a volunteer-driven project created to support communities through accessible technology, collaboration, and compassion.
 
-## About the Project
+## 🫶 About the Project
 
-This website was created by volunteers to provide...
+**Respondua** is part of the **Vidguk Foundation**, a charitable initiative born in response to the war in Ukraine.  
+Since February 24, 2022, we’ve been united by one goal — **to help those in need**.
 
+This website was built by volunteers to connect people with vital resources, support, and each other.  
 It is open-source and built with ❤️ by contributors from all around the world.
+
+We believe in fast, transparent, and human-centered digital tools for real-world impact.
+
 
 ## Tech Stack
 

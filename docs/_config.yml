@@ -3,8 +3,11 @@ description: Open-source volunteer platform documentation
 theme: jekyll-rtd-theme
 source: _docs
 
-url: "https://respondua.github.io"
-baseurl: "/respondua"
+# baseurl: "/respondua"
+
+repository: respondua/respondua
+branch: main
+permalink: pretty
 
 markdown: kramdown
 

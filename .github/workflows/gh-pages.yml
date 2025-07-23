@@ -41,6 +41,7 @@ jobs:
         run: bundle exec jekyll build --source _docs --destination _site
 
       - name: Debug _site content
+        working-directory: docs
         run: ls -R _site
 
       - name: Upload artifact

@@ -12,7 +12,6 @@ It is open-source and built with ❤️ by contributors from all around the worl
 
 We believe in fast, transparent, and human-centered digital tools for real-world impact.
 
-
 ## Tech Stack
 
 - **Backend**: Django (Python)

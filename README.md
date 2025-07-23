@@ -34,3 +34,34 @@ If you'd like to help with development, design, translation, or community outrea
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+
+sudo docker-compose -f docker-compose.yaml up --build -d
+
+docker exec -it volunteer python manage.py migrate
+
+git tag -a v0.2.5 -m "my version v0.2.5"
+
+git push origin v0.2.4
+
+scp -o StrictHostKeyChecking=no -r init-letsencrypt.sh ubuntu@IP:/home/ubuntu/app
+
+VIRT env
+
+source venv/Scripts/activate usefull commands for django
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations
+python manage.py createsuperuser
+python manage.py collectstatic
+
+
+python manage.py compilemessages --ignore=env
+
+python manage.py loaddata app/fixtures/authors.json
+
+python manage.py dumpdata > db.json
+
+netstat -an | grep 0.0.0.0:5432 tcp 0 0 0.0.0.0:5432 0.0.0.0:* LISTEN
+
+ssh -N ubuntu@3.69.216.243 -L 1111:0.0.0.0:5432

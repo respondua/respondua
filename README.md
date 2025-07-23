@@ -1,16 +1,29 @@
-## Hi there 👋
+## Respondua – Volunteer Project
 
-<!--
-**respondua/respondua** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to **Respondua**, a volunteer-driven project built to support our community through accessible technology and collaboration.
 
-Here are some ideas to get you started:
+## 🌍 About the Project
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+This website was created by volunteers to provide...
+
+It is open-source and built with ❤️ by contributors from all around the world.
+
+## 🚀 Tech Stack
+
+- **Backend**: Django (Python)
+- **Frontend**: HTML/CSS/JS
+- **Database**: PostgreSQL
+- **Containerization**: Docker
+- **Hosting**: AWS EC2 + Nginx + SSL
+
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/respondua/respondua.git
+cd respondua
+docker-compose up
+```
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

@@ -1,7 +1,7 @@
 title: Respondua Documentation
 description: Open-source volunteer platform documentation
 theme: jekyll-rtd-theme
-# source: _docs
+source: _docs
 
 # baseurl: "/respondua"
 # baseurl: "/respondua" # for https://username.github.io/respondua

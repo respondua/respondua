@@ -15,20 +15,23 @@ jobs:
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
+        working-directory: docs
         with:
           ruby-version: '3.1'
           bundler-cache: true
 
       - name: Install Dependencies
+        working-directory: docs
         run: |
           gem install bundler
           bundle install
 
       - name: Build site
+        working-directory: docs
         run: bundle exec jekyll build --source _docs --destination docs
 
       - name: Push to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: docs
+          folder: docs/_site

@@ -5,7 +5,6 @@ gem "csv"
 gem "bigdecimal"
 gem "base64"
 gem "logger"
-# gem "jekyll-rtd-theme", ">= 1.0.3"
 gem "liquid", "~> 4.0.3"
 gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.7"

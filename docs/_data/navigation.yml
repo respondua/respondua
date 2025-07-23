@@ -1,6 +1,6 @@
 - title: Getting Started
-  url: /getting-started/
-- title: Installation
-  url: /install/
+  url: /respondua/getting-started/
 - title: Configuration
-  url: /configuration/
+  url: /respondua/configuration/
+- title: Installation
+  url: /respondua/installation/

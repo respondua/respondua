@@ -7,4 +7,4 @@ permalink: /
 
 # Welcome to Respondua Documentation
 
-Go to the [Getting Started](getting-started/) section or use the search bar.
+Go to the [Getting Started](/getting-started/) section or use the search bar.

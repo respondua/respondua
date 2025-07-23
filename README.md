@@ -2,13 +2,13 @@
 
 Welcome to **Respondua**, a volunteer-driven project built to support our community through accessible technology and collaboration.
 
-## 🌍 About the Project
+## About the Project
 
 This website was created by volunteers to provide...
 
 It is open-source and built with ❤️ by contributors from all around the world.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Backend**: Django (Python)
 - **Frontend**: HTML/CSS/JS
@@ -16,7 +16,7 @@ It is open-source and built with ❤️ by contributors from all around the worl
 - **Containerization**: Docker
 - **Hosting**: AWS EC2 + Nginx + SSL
 
-## 📦 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/respondua/respondua.git

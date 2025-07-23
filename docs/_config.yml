@@ -1,0 +1,40 @@
+title: Respondua Documentation
+description: Open-source volunteer platform documentation
+theme: jekyll-rtd-theme
+source: _docs
+
+url: "https://respondua.github.io"
+baseurl: "/respondua" 
+
+markdown: kramdown
+
+rtd:
+  version: v1.0.0
+  logo: "/assets/logo.png"
+  repo_url: "https://github.com/respondua/respondua"
+  edit_on_github: true
+  github_docs_folder: "_docs"
+  navigation:
+    file: navigation.yml
+
+
+collections:
+  docs:
+    output: true
+    permalink: /:path/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+search_enabled: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: default
+

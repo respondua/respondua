@@ -24,6 +24,7 @@ urlpatterns = [
     path('', include('home.urls')),
     path('', include('blog.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
+    path('', include('django_prometheus.urls')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1','localhost','3.69.216.243','respondua.or
 
 # Application definition
 INSTALLED_APPS = [
+    'django_prometheus',
     'parler',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -56,6 +57,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django_prometheus.middleware.PrometheusBeforeMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
@@ -65,6 +67,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'django_prometheus.middleware.PrometheusAfterMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
